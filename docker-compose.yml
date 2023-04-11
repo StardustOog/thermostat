@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: digitalsettings
+      POSTGRES_PASSWORD: digitalsettingspassword
+      POSTGRES_DB: smart_thermostat
+    ports:
+      - "54321:5432"
