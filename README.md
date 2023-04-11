@@ -36,6 +36,8 @@ Running project
 3) create database named smart_thermostat and scheme named smartthermostats
 4) start the project
 
+როდის გავისაუბროთ ;) :D :D
+
 To test this project you'll have to use postman(or other tool) because I had no time for frontend(wrote this in 1.5 day)
 and swagger with spring security isn't an easy thing :D ^_^
 
